@@ -12,6 +12,10 @@ import axios from 'axios';
 
 const { Header, Content } = Layout;
 
+//need to modify the whole thing use rainbow kit to connect
+//Also need to use Next.js to build this app
+
+
 function App() {
   const { address, isConnected } = useAccount();
   const { disconnect } = useDisconnect();
